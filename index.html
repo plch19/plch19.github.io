@@ -1,11 +1,677 @@
+<!DOCTYPE html>
 <html>
 
-  <head>
-    <title>PLCH</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <body>
-    <h1>Welcome to PLCH</h1>
-  </body>
+  <title>প্রোগ্রামিং লাভার্স কমিউনিটি অব হারাগাছ</title>
+  <meta content="পিএলসিএইচ হলো হারাগাছের প্রোগ্রামিং প্রেমীদের একটি গ্রুপ। এর মূল লক্ষ্য হচ্ছে হারাগাছের হাইস্কুল এবং কলেজগামী শিক্ষার্থীদের মধ্যে প্রোগ্রামিং সংস্কৃতি জনপ্রিয় করে তোলা। এছাড়া প্রোগ্রামিং-ভিত্তিক প্রতিযোগিতায় হারাগাছি শিক্ষার্থীদের অংশগ্রহণ বৃদ্ধি করা।" name="description">
+  <meta content="plch, programming, lovers, community, of, haragach, পিএলসিএইচ, প্রোগ্রামিং, লাভার্স, কমিউনিটি, অব, হারাগাছ" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/img/icons/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-touch-icon.png">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">হোমপেজ</a></li>
+          <li class="dropdown"><a href="#"><span>যুক্ত হোন</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe8ka_3SQqykr6MwCKy5PLix9TCE3gdrBU_oyU71U7poTF6Zg/viewform?usp=sf_link">সদস্য হিসেবে</a></li>
+              <!--<li class="pulse-effect"><a href="ambassador.html">অ্যাম্বাসেডর হিসেবে&nbsp;&nbsp;<span class="badge bg-success">OPEN</span></a></li>-->
+              <li><a href="ambassador.html">অ্যাম্বাসেডর হিসেবে&nbsp;&nbsp;<span class="badge bg-danger">CLOSED</span></a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeU7kVdaNVQLSHJ21NwwfYuwNCx69UH0xDRvG-OtyKD3pZR2A/viewform?usp=sf_link">ভলান্টিয়ার/ট্রেইনার হিসেবে</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScrQkxopYeUIpiUs4tCQFqMJrysmaDAHY7DZYrjiKU0dA99IQ/viewform?usp=sf_link">ডোনার হিসেবে</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>মেগা ইভেন্ট</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="programming-camp.html">প্রোগ্রামিং ক্যাম্প</a></li>
+              <li><a href="codeshock/index.html">কোডshock_</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="executives.html">পরিচালনা পর্ষদ</a></li>
+          <li><a class="nav-link scrollto" href="#contact">যোগাযোগ</a></li>
+          <li><a class="getstarted" href="https://facebook.com/groups/plch19">ফেসবুক গ্রুপ</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">প্রোগ্রামিং লাভার্স কমিউনিটি অব হারাগাছ</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">প্রোগ্রামিং প্রেমীদের মিলনমেলা</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>আমাদের সম্পর্কে জানুন</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid mb-4">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 about-img d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200"></div>
+          
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>About Us</h3>
+              <h2>আমাদের সম্পর্কে জানুন</h2>
+              <p>প্রোগ্রামিং লাভার্স কমিউনিটি অব হারাগাছ বা সংক্ষেপে PLCH হলো হারাগাছের প্রোগ্রামিং প্রেমীদের একটি গ্রুপ। এটি ২০১৯ সালে তার যাত্রা শুরু করেছিল। এর মূল লক্ষ্য হচ্ছে হারাগাছের হাইস্কুল এবং কলেজগামী শিক্ষার্থীদের মধ্যে প্রোগ্রামিং সংস্কৃতি জনপ্রিয় করে তোলা। এছাড়া প্রোগ্রামিং-ভিত্তিক প্রতিযোগিতায় হারাগাছি শিক্ষার্থীদের অংশগ্রহণ বৃদ্ধি করা। হারাগাছ নিবাসী হাইস্কুল কিংবা কলেজ পড়ুয়া শিক্ষার্থীরা এর সদস্য হতে পারে।</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-person-fill"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="132" data-purecounter-duration="1" class="purecounter"></span>
+                <p>সদস্য</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-person-badge" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                <p>ট্রেইনার</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-tools" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
+                <p>কর্মশালা</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-calendar-event-fill" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                <p>মেগা ইভেন্ট</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Work Section ======= -->
+    <section id="work" class="work">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Work</h2>
+          <p>আমাদের কাজ</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="work-box pink">
+              <i class="bi bi-megaphone icon"></i>
+              <h4>প্রোগ্রামিং সম্পর্কে জানানো</h4>
+              <p>বাংলাদেশে এখন প্রোগ্রামিং জনপ্রিয় হয়ে উঠতে শুরু করেছে। প্রোগ্রামিংকে ঘিরে বিভিন্ন কর্মশালা এবং প্রতিযোগিতা অনুষ্ঠিত হচ্ছে। শহুরে শিক্ষার্থীরা এসব প্রতিযোগিতায় অংশ নিচ্ছে; পুরস্কারও পাচ্ছে! কিন্তু হারাগাছের অধিকাংশ শিক্ষার্থী এখনও প্রোগ্রামিং এর নামটাই শোনেনি। আমরা চাই প্রোগ্রামিংয়ের মতো মজার এই জিনিসটা সম্পর্কে হারাগাছের সকল শিক্ষার্থী জানুক। সবাই না শিখুক, অন্তত জানুক। এজন্য আমরা হারাগাছের বিভিন্ন স্কুল-কলেজে গিয়ে শিক্ষার্থীদের প্রোগ্রামিং সম্পর্কে জানাই। প্রোগ্রামিং সম্পর্কিত ভিডিও দেখাই, আর্টিকেল বিলি করি, প্রোগ্রামিং দিয়ে কী কী করা যায় তা করে দেখাই।</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="work-box blue">
+              <i class="bi bi-code-slash icon"></i>
+              <h4>প্রোগ্রামিং শেখানো</h4>
+              <p>প্রোগ্রামিং সম্পর্কে জানানোর পর অনেক আগ্রহী শিক্ষার্থী আমাদের কাছে প্রোগ্রামিং শিখতে চায়। আমরা সেসব শিক্ষার্থীদের প্রোগ্রামিং ক্যাম্প করাই। এখন, ক্যাম্প নেয়ার সময় দেখা যায় অনেকে ২/১ দিন শেখার পর আর আসে না। আমরা তখন খানিকটা হতাশ হয়ে যাই। তবে কাউকে জোর করে কিছু শেখানো যায় না এবং আমরা এটার পক্ষেও না। সবাইকেই যে প্রোগ্রামিং শিখতে হবে এমন কোনো কথা নেই। কেউ ক্রিকেট খেলবে, কেউ নাচ করবে, কেউ ডাক্তার হবে, কেউ সাংবাদিক হবে। কিন্তু প্রোগ্রামিং এর মতো একটা মজার জিনিসের সাথে তাদের পরিচয় হবে সেটাই আসল কথা।</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="work-box orange">
+              <i class="bi bi-graph-up icon"></i>
+              <h4>প্রোগ্রামিং প্রতিযোগিতায় সম্পৃক্ততা বাড়ানো</h4>
+              <p>বাংলাদেশে এখন প্রতি বছর ৪/৫টা ন্যাশনাল লেভেল প্রোগ্রামিং প্রতিযোগিতা অনুষ্ঠিত হয়। কিন্তু এসবে বেশিরভাগ অংশগ্রহণকারী আসে দেশের বড় বড় শহর থেকে। আমরা চাচ্ছি আগামী কয়েক বছরের মধ্যে যেন রংপুর অঞ্চল থেকে ১৫-২০ জন এসব প্রতিযোগিতার জাতীয় পর্ব পর্যন্ত যেতে পারে, আর এঁদের অধিকাংশই যেন আমাদের হারাগাছের শিক্ষার্থী হয়। এজন্যই হারাগাছ সহ রংপুর জেলার শিক্ষার্থীরা যেন হাতের কাছেই অনসাইট প্রোগ্রামিং প্রতিযোগিতায় অংশ নেয়ার অভিজ্ঞতা লাভ করতে পারে সেজন্য আমরা প্রতি বছর আয়োজন করছি কোডshock_ প্রোগ্রামিং প্রতিযোগিতা।</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="work-box red">
+              <i class="bi bi-translate icon"></i>
+              <h4>প্রোগ্রামিং সম্পর্কিত বাংলা কন্টেন্টের পরিমাণ বাড়ানো</h4>
+              <p>প্রোগ্রামিং শেখা শুরু করার কিছুদিন পর অনেকের অভিযোগ থাকে “বাংলায় প্রোগ্রামিংয়ের রিসোর্স কম”। আর তার কিছুদিন পর ইংরেজি যারা একটু কম বোঝে তারা প্রোগ্রামিং ছেড়ে পালায়! আসলেই বাংলা ভাষায় প্রোগ্রামিং নিয়ে খুব কম রিসোর্স বিদ্যমান। যদিওবা আগের তুলনায় এখন বাংলায় প্রোগ্রামিং নিয়ে অনেক কন্টেন্ট আছে, তবুও সেটা যথেষ্ট নয়। ইংরেজিতে প্রোগ্রামিংয়ের যত রিসোর্স আছে তার ১০% -ও যদি বাংলাতে থাকতো তাহলে বাংলাদেশের কোনো শিক্ষার্থী প্রোগ্রামিং শেখা শুরু করার পর ছেড়ে দিত না। এজন্যই আমরা চেষ্টা করছি বাংলায় প্রোগ্রামিং সম্পর্কিত কন্টেন্টের সংখ্যা বাড়ানোর।</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Work Section -->
+    
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+    
+      <div class="container" data-aos="fade-up">
+    
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>আমাদের উল্লেখযোগ্য কাজ</p>
+        </header>
+        
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+        
+          <div class="row">
+        
+            <div class="col-lg-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/services.png" class="img-fluid mb-2">
+              <p>আমরা একটি নির্দিষ্ট এলাকাভিত্তিক সংগঠন হলেও আমাদের অধিকাংশ কার্যক্রম নির্দিষ্ট এলাকাভিত্তিক নয়। আমাদের প্রায় <b>৫০ শতাংশ</b> কার্যক্রম সকলের জন্য উন্মুক্ত।</p>
+            </div>
+        
+            <div class="col-lg-8 d-flex content">
+              <div class="row align-self-center gy-4">
+        
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="bi bi-journal-richtext"></i>
+                  <div>
+                    <h4>ভিজুয়াল বাংলা কন্টেন্ট</h4>
+                    <p>দৃষ্টিনন্দন বিভিন্ন কন্টেন্ট যেমন: ছবি, ভিডিও, আর্টিকেল ইত্যাদির মাধ্যমে প্রোগ্রামিংয়ের নানা জানা অজানা বিষয়গুলিকে তুলে ধরি আমরা, তাও আবার বাংলা ভাষায়। যা প্রোগ্রামিং শেখাকে করে আরো সহজ ও আনন্দময়।</p>
+                  </div>
+                </div>
+        
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi bi-people"></i>
+                  <div>
+                    <h4>কমিউনিটি সার্ভিস</h4>
+                    <p>প্রোগ্রামিং জগতের নানা জানা অজানা বিষয় নিয়ে নিয়মিত আলোচনা হয় আমাদের ফেসবুক গ্রুপে। ফলে অনেকেই নতুন কিছু জানতে পারে। এছাড়া কারো প্রোগ্রামিং বিষয়ক কোনো সাহায্য প্রয়োজন হলে আমাদের ফেসবুক গ্রুপে পোস্ট করলেই সাহায্য মেলে।</p>
+                  </div>
+                </div>
+        
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-trophy"></i>
+                  <div>
+                    <h4>প্রোগ্রামিং প্রতিযোগিতা</h4>
+                    <p>প্রোগ্রামিংয়ে ভালো করার সবথেকে মোক্ষম উপায় হচ্ছে বেশি বেশি প্রোগ্রামিং প্রতিযোগিতায় অংশ নেয়া। প্রোগ্রামিং প্রতিযোগিতায় অংশগ্রহণ করে যেমনি অভিজ্ঞতা অর্জন করা যায়, ঠিক তেমনি নিজের সঙ্গে অন্যের তুলনাও করা যায়। তাই আমরা ঘন-ঘন প্রোগ্রামিং-ভিত্তিক প্রতিযোগিতার আয়োজন করি।</p>
+                  </div>
+                </div>
+        
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-signpost-split"></i>
+                  <div>
+                    <h4>প্রোগ্রামিং অলিম্পিয়াড গাইডলাইন</h4>
+                    <p>অনেকেই আছে যারা প্রোগ্রামিং অলিম্পিয়াডে অংশ নিতে ইচ্ছুক, কিন্তু তারা সঠিক দিকনির্দেশনার অভাবে অংশগ্রহণে ব্যর্থ হয় কিংবা অংশগ্রহণ করলেও ভালো করতে না পেরে হতাশ হয়ে যায়। আমরা তাদেরকে সঠিক দিকনির্দেশনা এবং পরামর্শ দিয়ে সাহায্য করি।</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        
+          </div>
+        
+        </div><!-- End Feature Icons -->
+        
+      </div>
+      
+    </section><!-- End Features Section -->
+    
+    <!-- ======= Story Section ======= -->
+    <section id="story">
+    
+      <div class="container" data-aos="fade-up">
+    
+        <header class="section-header">
+          <h2>Story</h2>
+          <p>প্রতিষ্ঠার গল্প</p>
+        </header>
+    
+        <div class="row">
+    
+          <div class="col">
+            <p align="center">রংপুর জেলার অন্তর্গত ছোট্ট একটি পৌরসভা হারাগাছে ‘আউস’ নামে একটি সংগঠন আছে যার মূল লক্ষ্য হারাগাছের হাইস্কুল শিক্ষার্থীদের মাঝে সহশিক্ষা কার্যক্রম পরিচালনা করা, কারিগরি প্রশিক্ষণ দেয়া, লিডারশিপ স্কিল সৃষ্টি করা ইত্যাদি। ২০১৬ সালে আউস থেকে একটি প্রোগ্রামিং প্রশিক্ষণের ব্যবস্থা করা হয়। আমাদের প্রতিষ্ঠাকালীন বেশ কয়েকজন সদস্য আউসের সেই প্রোগ্রামিং প্রশিক্ষণ পেয়েছিল। উল্লেখ্য যে, ২০১৬ সালের ঐ আউসের প্রোগ্রামিং প্রশিক্ষণটি নেয়ার আগ পর্যন্তও হারাগাছের শিক্ষার্থীরা "প্রোগ্রামিং" শব্দটার সাথে অপরিচিত ছিল। কিন্তু ২০১৮ সালের পর থেকে আউসের প্রোগ্রামিং বিষয়ক সকল কার্যক্রম স্থগিত করে দেয়া হয়। এদিকে ঐ সময় হারাগাছের অনেক শিক্ষার্থীর মাঝে প্রোগ্রামিং বিষয়টা নিয়ে ব্যাপক আগ্রহের সৃষ্টি হয়। কিন্তু প্রোগ্রামিং-ভিত্তিক নির্দিষ্ট কোনো সংগঠন না থাকায়, পর্যাপ্ত গাইডলাইনের অভাবে সেসব শিক্ষার্থীদের আগ্রহ চাপা পড়ে যায়। তখন এমন একটি সংগঠনের প্রয়োজনীয়তা দেখা দেয়, যেই সংগঠন নির্দিষ্ট করে প্রোগ্রামিং নিয়ে কাজ করবে। আর এজন্যই ২০১৯ সালের মার্চের ১৫ তারিখ গঠন করা হয় “প্রোগ্রামিং লাভার্স কমিউনিটি অব হারাগাছ”।</p>
+            <p align="center">সংগঠন তৈরি হয়ে যাওয়ার পর দেখা গেল এসব বিষয়ে আগ্রহী শিক্ষার্থীর সংখ্যা সেইরকম বেশিও নয়! সেসময় নির্দিষ্ট সদস্য ছিল না, প্রশিক্ষক ছিল না, ছিল না কোনো উপদেষ্টা। অনেক বাধা বিপত্তির পর কষ্ট করে আউসের সদস্যদের নিয়েই শুরু হলো কার্যক্রম। স্কুলে স্কুলে গিয়ে আমাদের কার্যক্রম সম্পর্কে শিক্ষার্থীদের জানানো হলো, সদস্য এবং প্রশিক্ষক জোগাড় করা হলো। করানো হলো প্রোগ্রামিং ক্যাম্প। ফলও আসলো মনমতো! প্রোগ্রামিং ক্যাম্পের টপ-৫ শিক্ষার্থীকে অংশ নিতে ডাকা হলো <i>জাতীয় শিশু-কিশোর প্রোগ্রামিং প্রতিযোগিতা ২০১৯</i> এর জেলা পর্যায়ে। রংপুর জেলার সেরা ৫ জনই তারা নির্বাচিত হয়। তবে জাতীয় পর্যায়ে যেহেতু প্রতি জেলার চ্যাম্পিয়ন যেতে পারে তাই জাতীয় পর্যায়ে অংশ নেয় আমাদের গ্রুপের সদস্য আব্দুল্লাহ আল মুকিত। সেবছর আমাদের লক্ষ্য ছিল আমাদের গ্রুপের কেউ একজন যেন জাতীয় পর্যায় পর্যন্ত যেতে পারে। কিন্তু আমাদের কল্পনার বাইরে গিয়ে, ঢাকা-চট্টগ্রামের মতো বড় শহরের প্রোগামারদের হারিয়ে সে ৭ম স্থান অর্জন করে!</p>
+            <p align="center">প্রথম বছরেই লক্ষ্য অর্জিত হওয়ার পর আমাদের সদস্য ধীরে ধীরে বাড়তে লাগলো। এছাড়াও সহযোগিতা করা শুরু করলো অন্যান্য সংগঠন। প্রচারণার জন্য ওয়েবসাইট, ফেসবুক ও লিঙ্কড-ইন পেজ চালু করা হলো। আমাদের গ্রুপের কাজের পরিধিও বাড়তে থাকলো। আমরা আশা করছি ভবিষ্যতে আমাদের গ্রুপের হাত ধরেই শুধুমাত্র হারাগাছে নয় বরং সারা বাংলাদেশে একটা প্রোগ্রামিং বিপ্লব শুরু হবে ইনশাআল্লাহ।</p>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- End Story Section -->
+    
+    <!-- ======= Achievements Section ======= -->
+    <section id="achievements" class="achievements">
+      <div class="container">
+      
+        <header class="section-header">
+          <h2>Achievements</h2>
+          <p>আমাদের অর্জন</p>
+        </header>
+    
+        <div class="row">
+          
+          <div class="col-md-6">
+            <div class="achievements-description">
+              <p>প্রোগ্রামিংয়ে ভালো করার সবথেকে মোক্ষম উপায় হচ্ছে বেশি বেশি প্রোগ্রামিং প্রতিযোগিতায় অংশ নেয়া। যে যত বেশি প্রতিযোগিতায় অংশ নেবে, তার তত বেশি অভিজ্ঞতা বাড়বে। আমাদের প্রধান কয়েকটি লক্ষ্যের মধ্যে একটি হলো প্রোগ্রামিং প্রতিযোগিতাগুলোতে হারাগাছের শিক্ষার্থীদের সম্পৃক্ততা বাড়ানো। বিগত কয়েক বছর থেকে আমাদের গ্রুপের শিক্ষার্থীরা অনলাইন - অফলাইন বিভিন্ন প্রোগ্রামিং প্রতিযোগিতায় অংশ নিয়ে আসছে। তাদের মধ্যে বেশ কয়েকজন আবার অর্জন করেছে ঈর্ষণীয় সাফল্য। সেইসব শিক্ষার্থীদের এবং তাদের অর্জনগুলোকে এখানে তুলে ধরা হলো। তাদের অর্জনই আমাদের অর্জন।</p>
+            </div>
+          </div>
+    
+          <div class="col-md-6">
+            <div class="achievements-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/achievements/a03-toukir-nhspc2021-28th.jpg">
+                  <small><p class="mt-1 text-center">জাতীয় হাইস্কুল প্রোগ্রামিং প্রতিযোগিতা ২০২১ এর জুনিয়র ক্যাটাগরিতে আমাদের গ্রুপের সদস্য <b>তৌকির আহাম্মেদ</b> ২৮ তম স্থান অর্জন করে।</p></small>
+                </div>
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/achievements/a02-sifat-cs2019-winner.jpg">
+                  <small><p class="mt-1 text-center">কোডshock_ ২০১৯ এর হারাগাছ পর্বে বিজয়ী নির্বাচিত হয় আমাদের গ্রুপের সদস্য <b>সিফাত আল ইমতিয়াজ</b>। এছাড়াও বাকি দুই বিজয়ী মুকিত এবং তৌকির ও আমাদের গ্রুপের সদস্য।</p></small>
+                </div>
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/achievements/a01-mukit-nctpc2019-7th.jpg">
+                  <small><p class="mt-1 text-center">জাতীয় শিশু-কিশোর প্রোগ্রামিং প্রতিযোগিতা ২০১৯ এর জুনিয়র ক্যাটাগরিতে জেলা পর্যায়ে চ্যাম্পিয়ন হয়ে জাতীয় পর্বে অংশগ্রহণের সুযোগ পায় আমাদের গ্রুপের সদস্য <b>আব্দুল্লাহ আল মুকিত</b>। জাতীয় পর্বে সবাইকে চমকে দিয়ে সে ৭ম স্থান অধিকার করে।</p></small>
+                </div>
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+        </div>
+    
+      </div>
+    </section><!-- End Achievements Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p>আমাদের সম্পর্কে অন্যদের মত</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>এই কমিউনিটি সত্যিই খুব ভালো এবং সময় উপযোগী উদ্যোগ। এই টিমের সবচেয়ে যে বিষয়টি ভালো লেগেছে সেটি হলো, এর নেতৃত্ব দিচ্ছে তরুণ স্কুল-কলেজের শিক্ষার্থীরা। আমি নিজেও এত দিন এই কমিউনিটির সাথে খুব একটা পরিচিত ছিলাম না। তবে খোঁজ নিয়ে, ঘেটে দেখলাম; আমার ভালো লেগেছে। কমিউনিটির সাথে যুক্ত সকলকে অভিনন্দন ও শুভেচ্ছা।</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/pujon-roy.jpg" class="testimonial-img">
+                  <h3>পুজন রায়</h3>
+                  <h4>সমন্বয়ক, রংপুর কিআ বুক ক্লাব</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>প্রোগ্রামিং প্রতিযোগিতায় অংশগ্রহণ স্কুল জীবন থেকেই শুরু করা উচিত। সেই স্কুল শিক্ষার্থীদের প্রোগ্রামিং প্রতিযোগিতায় অংশগ্রহণ নিশ্চিত করতে সংগঠনটির প্রতিষ্ঠাতারা নিজ উদ্যোগে যে কাজ করছে তা অনেক ভালো কাজ। আর অবশ্যই এটা সংগঠনটির একটা অর্জন।</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/erfanul-taher.jpg" class="testimonial-img">
+                  <h3>এরফানুল তাহের</h3>
+                  <h4>টিম এসোসিয়েট, অপরচুনিটিস পর কিডস</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>কম্পিউটার প্রোগ্রামিং ছোট থেকেই শেখা উচিত, কারণ এটি আমাদেরকে চিন্তা করতে শেখায়। এই কথা বলেছেন স্টিভ জবস। তাঁর কথাকে মাথায় রেখেই কাজ করে যাচ্ছে এই কমিউনিটি। বর্তমান প্রযুক্তির যুগেও প্রোগ্রামিং সম্পর্কে জানে হাতেগোনা কয়জন। আমি আশা করি ভবিষ্যতে বাংলাদেশে প্রোগ্রামিং বিপ্লব শুরুর নেপথ্যে থাকবে এই কমিউনিটি।</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/k-m-islam.jpg" class="testimonial-img">
+                  <h3>কে. এম. ইসলাম</h3>
+                  <h4>ইউনিট ম্যানেজার, মেটলাইফ বাংলাদেশ</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>এই কমিউনিটির প্রতিষ্ঠাকালের কয়েক মাস পর থেকেই আমি এর সাথে যুক্ত। এটি যে কাজ করছে তা অত্যন্ত প্রশংসনীয়। আমি খুবই দুর্ভাগ্যবান যে আমার এলাকায় এরকম কোনো কমিউনিটি নেই। নাহলে আমার চেয়ে আরো অনেক ভালো ভালো প্রোগ্রামার বের হতো। এর প্রতিষ্ঠাতাদের জানাই আন্তরিক ভালোবাসা।</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/mashfiqur-r-khan.jpg" class="testimonial-img">
+                  <h3>মাশফিকুর রহমান খান</h3>
+                  <h4>ফ্রিল্যান্স সফটওয়্যার ডেভেলপার</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+    
+    <!-- ======= Donation Section ======= -->
+    <section id="donation" class="donation">
+    
+      <div class="container" data-aos="fade-up">
+    
+        <header class="section-header">
+          <h2>Donate</h2>
+          <p>ডোনেট করুন</p>
+        </header>
+    
+        <div class="row gy-4" data-aos="fade-left">
+    
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h4>মাধ্যম</h4>
+              <img src="assets/img/bkash.svg" class="img-fluid">
+              <ul>
+                <li>প্রথমে *247# ডায়াল করে বিকাশ মেনু আনুন। কিংবা বিকাশ অ্যাপ ওপেন করুন।</li>
+                <li>তারপরে 'Send Money' নির্বাচন করুন।</li>
+                <li>বিকাশ নম্বর হিসেবে 01934027265 (পার্সোনাল) দিন।</li>
+                <li>তারপর টাকার পরিমাণ দিন।</li>
+                <li>রেফারেন্স হিসেবে দিন Donation for PLCH</li>
+                <li>এবারে আপনার বিকাশ পিন দিয়ে টাকা পাঠিয়ে দিন।</li>
+              </ul>
+              <small><p>বিকাশে টাকা পাঠানোর পর চাইলে আমাদের জানাতে পারেন। এজন্য ঐ নম্বরেই আপনার নাম, ঠিকানা, ফোন নম্বর ও ট্রানজেকশন আইডি লিখে মেসেজ পাঠাতে পারেন।</p></small>
+              <a href="tel:*247#" class="btn-donate">ডোনেট করুন</a>
+            </div>
+          </div>
+    
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h4>মাধ্যম</h4>
+              <img src="assets/img/nagad.svg" class="img-fluid">
+              <ul>
+                <li>প্রথমে *167# ডায়াল করে নগদ মেনু আনুন। কিংবা নগদ অ্যাপ ওপেন করুন।</li>
+                <li>তারপরে 'Send Money' নির্বাচন করুন।</li>
+                <li>রিসিভার অ্যাকাউন্ট নম্বর হিসেবে 01934027265 দিন।</li>
+                <li>তারপর টাকার পরিমাণ দিন।</li>
+                <li>রেফারেন্স হিসেবে দিন Donation for PLCH</li>
+                <li>এবারে আপনার নগদ পিন দিয়ে টাকা পাঠিয়ে দিন।</li>
+              </ul>
+              <small><p>নগদে টাকা পাঠানোর পর চাইলে আমাদের জানাতে পারেন। এজন্য ঐ নম্বরেই আপনার নাম, ঠিকানা, ফোন নম্বর ও ট্রানজেকশন আইডি লিখে মেসেজ পাঠাতে পারেন।</p></small>
+              <a href="tel:*167#" class="btn-donate">ডোনেট করুন</a>
+            </div>
+          </div>
+    
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h4>মাধ্যম</h4>
+              <span class="featured">সেরা</span>
+              <img src="assets/img/plch-tshirt.png" class="img-fluid">
+              <h5 style="margin-top:-20px; font-weight:700; color: #012970;">উক্ত টিশার্টটি ক্রয় করুন</h5>
+              <div class="price"><sup>৳</sup>১৫০<span> +চার্জ</span></div>
+              <ul>
+                <li class="text-muted"><b>কাপড়:</b> জার্সি</li>
+                <li class="text-muted"><b>রং:</b> সাদা</li>
+                <li class="text-muted"><b>সাইজ:</b> L কিংবা XL</li>
+                <li class="text-muted mb-2"><b>প্রিন্ট কোয়ালিটি:</b> রাবার প্রিন্ট</li>
+                <li>01934027265 নম্বরে টিশার্টের নির্ধারিত মূল্য বিকাশ কিংবা নগদ করুন</li>
+                <li>ক্রয় করুন বাটনে ক্লিক করুন</li>
+                <li>দরকারি তথ্য সমেত ইমেইল করুন</li>
+              </ul>
+              <small><p>PLCH একটি অলাভজনক প্রতিষ্ঠান। এই টিশার্ট বিক্রির লভ্যাংশের পুরোটাই ব্যয় হবে বিভিন্ন প্রোগ্রামিং কর্মশালা আয়োজনে ও প্রোগ্রামিং প্রতিযোগিতার পুরস্কার প্রদানে।</p></small>
+              <a href="mailto:connect.plch19@gmail.com?subject=PLCH%20T-shirt%20Buy&body=Trnx%20ID:%0ASize:%0A%0AName:%0AAddress:%0APhone%20number:" class="btn-donate">ক্রয় করুন</a>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- End Donation Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>যোগাযোগ করুন</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>আমাদের ঠিকানা</h3>
+                  <p>২য় কক্ষ, আউস সাইবার লাইব্রেরী<br>মাতৃমঙ্গল রোড, সারাই, হারাগাছ<br>কাউনিয়া, রংপুর।</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>যোগাযোগের সময়</h3>
+                  <p>শনিবার - বৃহস্পতিবার<br>দুপুর ২টা - সন্ধ্যা ৬টা</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>ফোন নম্বর</h3>
+                  <p>+880 19065 13546</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>ইমেইল এড্রেস</h3>
+                  <p>connect.plch19@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="mailto:connect.plch19@gmail.com" method="post" enctype="text/plain" class="contact-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="Name" class="form-control" placeholder="আপনার নাম" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="E-mail" placeholder="আপনার ইমেইল এড্রেস" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="Subject" placeholder="বিষয়" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="Message" rows="6" placeholder="আপনার মেসেজ" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="submit">মেসেজটি পাঠান</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+    
+    <!-- ======= Associates Section ======= -->
+    <section id="associates" class="associates">
+    
+      <div class="container" data-aos="fade-up">
+    
+        <header class="section-header">
+          <h2>Associates</h2>
+          <p>সহযোগী সংগঠনসমূহ</p>
+        </header>
+    
+        <div class="associates-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/associates/d4t.png" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/associates/aush.png" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/associates/hmlhs.png" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/associates/printf.png" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/associates/pscl.png" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="assets/img/associates/mdvirus.png" class="img-fluid"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    
+    </section><!-- End Associates Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <h3>প্রোগ্রামিং লাভার্স কমিউনিটি অব হারাগাছ</h3>
+            <p>পিএলসিএইচ হলো হারাগাছের প্রোগ্রামিং প্রেমীদের একটি গ্রুপ। এর মূল লক্ষ্য হচ্ছে হারাগাছের হাইস্কুল এবং কলেজগামী শিক্ষার্থীদের মধ্যে প্রোগ্রামিং সংস্কৃতি জনপ্রিয় করে তোলা। এছাড়া প্রোগ্রামিং-ভিত্তিক প্রতিযোগিতায় হারাগাছি শিক্ষার্থীদের অংশগ্রহণ বৃদ্ধি করা।</p>
+            <div class="social-links mt-3">
+              <a href="https://facebook.com/PLCH19"><i class="bi bi-facebook"></i></a>
+              <a href="https://m.me/PLCH19"><i class="bi bi-messenger"></i></a>
+              <a href="https://linkedin.com/company/plch19"><i class="bi bi-linkedin"></i></a>
+              <a href="tel:+8801906513546"><i class="bi bi-telephone-fill"></i></a>
+              <a href="mailto:connect.plch19@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>দরকারী লিংকসমূহ</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">হোমপেজ</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="programming-camp.html">প্রোগ্রামিং ক্যাম্প</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="codeshock/index.html">কোডshock_</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="ambassador.html">অ্যাম্বাসেডর</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">র‌্যাঙ্কিং</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>ফর্মের লিংকসমূহ</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8ka_3SQqykr6MwCKy5PLix9TCE3gdrBU_oyU71U7poTF6Zg/viewform?usp=sf_link">নতুন সদস্য</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU7kVdaNVQLSHJ21NwwfYuwNCx69UH0xDRvG-OtyKD3pZR2A/viewform?usp=sf_link">নতুন ভলান্টিয়ার/ট্রেইনার</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://docs.google.com/forms/d/e/1FAIpQLScrQkxopYeUIpiUs4tCQFqMJrysmaDAHY7DZYrjiKU0dA99IQ/viewform?usp=sf_link">নতুন ডোনার</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>যোগাযোগ</h4>
+            <p>
+              <a href="https://www.google.com/maps/place/AUSH+Cyber+Library,+Haragach+Rd,+Haragach/@25.8105982,89.3239224,15z/data=!4m2!3m1!1s0x39e328d36a9d023b:0x102cdd4bf0a0b85b?force=qVTs2FOxxTmHHo79-pwa&source=mlapk">২য় কক্ষ, আউস সাইবার লাইব্রেরী<br>মাতৃমঙ্গল রোড, সারাই, হারাগাছ<br>কাউনিয়া, রংপুর।</a><br><br>
+              <strong>ফোনঃ</strong> <a href="tel:+8801906513546">+880 19065 13546</a><br>
+              <strong>ইমেইলঃ</strong> <a href="mailto:connect.plch19@gmail.com">connect.plch19@gmail.com</a><br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; কপিরাইট <strong><span>PLCH</span></strong>. সকল স্বত্ত্ব সংরক্ষিত।
+      </div>
+      <div class="credits">
+        ডেভেলপার <a href="https://mdvirus.wordpress.com">মোঃ মুশফিকুর রহমান</a><br><br>
+        <small>(একটি <a href="https://bootstrapmade.com/">বুটস্ট্র্যাপ মেড</a> থিম)</small>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
